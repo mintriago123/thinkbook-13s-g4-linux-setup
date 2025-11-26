@@ -73,7 +73,7 @@ cp profiles/*.json ~/.config/easyeffects/output/
 ---
 
 ### 🔐 Fingerprint Reader Driver
-**Repository**: [FPC-10a5-9800-Fedora-Nobara](https://github.com/mintriago123/FPC-10a5-9800-Fedora-Nobara)
+**Repository**: [FPC-10a5-9800](https://github.com/mintriago123/FPC-10a5-9800)
 
 Modified installation scripts for the FPC 10a5:9800 fingerprint reader, adapted for Fedora/Nobara from the original Ubuntu driver.
 
@@ -88,8 +88,8 @@ Modified installation scripts for the FPC 10a5:9800 fingerprint reader, adapted 
 lsusb | grep 10a5:9800
 
 # Clone repository
-git clone https://github.com/mintriago123/FPC-10a5-9800-Fedora-Nobara.git
-cd FPC-10a5-9800-Fedora-Nobara
+git clone https://github.com/mintriago123/FPC-10a5-9800.git
+cd FPC-10a5-9800
 
 # Follow the detailed instructions in the repository README
 ```
@@ -149,7 +149,7 @@ systemctl --user restart pipewire pipewire-pulse wireplumber
 ```bash
 lsusb | grep -i fingerprint
 ```
-3. Reinstall driver following the [FPC repository](https://github.com/mintriago123/FPC-10a5-9800-Fedora-Nobara) instructions
+3. Reinstall driver following the [FPC repository](https://github.com/mintriago123/FPC-10a5-9800) instructions
 
 #### Fingerprint Enrollment Fails
 - Clean the fingerprint sensor
@@ -278,7 +278,7 @@ cp profiles/*.json ~/.config/easyeffects/output/
 ---
 
 ### 🔐 Driver del Lector de Huellas
-**Repositorio**: [FPC-10a5-9800-Fedora-Nobara](https://github.com/mintriago123/FPC-10a5-9800-Fedora-Nobara)
+**Repositorio**: [FPC-10a5-9800](https://github.com/mintriago123/FPC-10a5-9800)
 
 Scripts de instalación modificados para el lector de huellas FPC 10a5:9800, adaptados para Fedora/Nobara desde el driver original de Ubuntu.
 
@@ -293,8 +293,8 @@ Scripts de instalación modificados para el lector de huellas FPC 10a5:9800, ada
 lsusb | grep 10a5:9800
 
 # Clonar repositorio
-git clone https://github.com/mintriago123/FPC-10a5-9800-Fedora-Nobara.git
-cd FPC-10a5-9800-Fedora-Nobara
+git clone https://github.com/mintriago123/FPC-10a5-9800.git
+cd FPC-10a5-9800
 
 # Seguir las instrucciones detalladas en el README del repositorio
 ```
@@ -353,7 +353,7 @@ systemctl --user restart pipewire pipewire-pulse wireplumber
 ```bash
 lsusb | grep -i fingerprint
 ```
-3. Reinstalar driver siguiendo las instrucciones del [repositorio FPC](https://github.com/mintriago123/FPC-10a5-9800-Fedora-Nobara)
+3. Reinstalar driver siguiendo las instrucciones del [repositorio FPC](https://github.com/mintriago123/FPC-10a5-9800)
 
 #### Falla el Registro de Huellas
 - Limpiar el sensor de huellas
